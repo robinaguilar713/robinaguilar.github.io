@@ -1,0 +1,100 @@
+*,
+*::before, *::after{
+  box-sizing: border-box;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+/* Navbar properties */
+
+.navbar .navbar-brand {
+    color:white;
+    background-color: cadetblue;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+    color: white;
+}
+.navbar {
+	margin:0 !important;
+  padding: 0px !important;
+}
+ul li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  ul li ~ li {
+    border-left: 1px solid #eee;
+  }
+  
+  /* grid styling */
+
+#githubTitle{
+  color: black;
+}
+
+.my-container{
+  margin-top: 80px;
+
+}
+
+.my-container h2 {
+  color: cadetblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+
+}
+.my-row {
+  height: 500px;
+
+}
+.block {
+  background-color:white;
+
+  padding: 30px;
+  margin-top: 80px;
+}
+
+.block-header {
+  /* Typography */
+  color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+/* body */
+  body {
+      background-image: url(https://www.transparenttextures.com/patterns/beige-paper.png);
+  }
+.devilCat {
+    object-fit: contain;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px;
+  }
+
+ /* PORTFOLIO PAGE */
+.port-image {
+  margin: 20px auto;
+}
+/* END PORTFOLIO PAGE */
+
+/* contact form styling */
+.contact-form h1 {
+  color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.contact-form .btn {
+  color:white;
+    background-color: cadetblue;
+}
+.contact-form .my-container {
+  background-color: white;
+}
