@@ -387,6 +387,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.5rem;
+  margin-left: 2em;
 }
 
 h5, .h5 {
@@ -398,7 +399,7 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
 }
 
@@ -1127,7 +1128,7 @@ pre code {
   }
   .col-lg-9 {
     flex: 0 0 75%;
-    max-width: 75%;
+    max-width: 100%;
   }
   .col-lg-10 {
     flex: 0 0 83.33333%;
@@ -9952,4 +9953,16 @@ form .row:first-child .floating-label-form-group {
 
 .link-properties {
   color: rgb(0, 131, 59);
+}
+.link-properties-dark {
+  color: rgb(253, 253, 253);
+  font-size: 20px;
+}
+.list-styling li {
+  font-size: 20px;
+  float: left;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
 }
