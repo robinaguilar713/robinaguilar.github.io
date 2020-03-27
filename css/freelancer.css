@@ -9960,3 +9960,7 @@ form .row:first-child .floating-label-form-group {
 #about {
   display: flex;
 } 
+
+.link-properties {
+  color: rgb(0, 131, 59);
+}
