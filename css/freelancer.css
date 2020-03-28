@@ -165,8 +165,8 @@ a {
 }
 
 a:hover {
-  color: #117964;
-  text-decoration: underline;
+  color: #dc3545;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -2791,11 +2791,11 @@ fieldset:disabled a.btn {
 
 .btn-link:hover {
   color: #117964;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   box-shadow: none;
 }
 
@@ -9484,7 +9484,7 @@ a.text-dark:hover, a.text-dark:focus {
     box-shadow: none !important;
   }
   a:not(.btn) {
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
   abbr[title]::after {
     content: " (" attr(title) ")";
@@ -9775,6 +9775,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 30px;
   border-radius: 0.5rem;
   overflow: hidden;
+  box-shadow: 8px 8px 8px #b3b3b3;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
