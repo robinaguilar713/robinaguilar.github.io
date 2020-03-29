@@ -62,9 +62,6 @@ body {
 
 /* ADDITIONS */
 
-#portfolio-preview {
-  display: none;
-}
 
 
 [tabindex="-1"]:focus {
