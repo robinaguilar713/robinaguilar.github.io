@@ -399,8 +399,10 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 300;
+  text-align: justify;
+  max-width: 73%;
 }
 
 .display-1 {
@@ -9604,6 +9606,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #000000 !important;
   font-size: 2rem;
 }
+.divider-custom .divider-custom-icon-lang {
+  color: #656565 !important;
+  font-size: 2rem;
+}
 
 .divider-custom.divider-light .divider-custom-line {
   background-color: #6f6f6f;
@@ -9744,7 +9750,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead-avatar {
-  width: 15rem;
+  width: 17rem;
   border-radius: 5%;
 }
 
@@ -9959,11 +9965,17 @@ form .row:first-child .floating-label-form-group {
   color: rgb(253, 253, 253);
   font-size: 20px;
 }
-.list-styling li {
-  font-size: 20px;
+.list-styling p a {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 900;
   float: left;
   text-align: center;
-  padding: 16px;
+  padding: 10px;
   text-decoration: none;
   display: block;
+}
+.list-styling a:hover {
+  color: #dc3545;
+  text-decoration: none;
 }
